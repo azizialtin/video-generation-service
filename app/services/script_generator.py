@@ -93,7 +93,7 @@ CRITICAL FIXES NEEDED:
 - Fix any animation issues (no Create() or Write() on groups)
 - Make sure all objects are properly defined before use
 - Ensure proper indentation
-            
+
 SCRIPT TO FIX:
 ```python
 {script_content}
