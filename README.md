@@ -42,7 +42,10 @@ manim_video_generator/
 └── README.md
 ```
 
+## A diagram of Three Layer Approach Architecture
+
 ## Installation
+<img width="3840" height="1866" alt="Untitled diagram _ Mermaid Chart-2025-08-06-144551" src="https://github.com/user-attachments/assets/8c117a85-df65-4dfb-ba15-648502244c8d" />
 
 ### Prerequisites
 
