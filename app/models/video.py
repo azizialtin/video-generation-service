@@ -11,8 +11,8 @@ class VideoStatus(str, Enum):
     FAILED = "failed"
 
 class VideoRequest(BaseModel):
-    prompt: str = Field(..., min_length=10, max_length=1000, description="Description of the educational video to generate")
-    duration_limit: Optional[int] = Field(default=30, ge=5, le=120, description="Maximum duration in seconds")
+    prompt: str = Field(..., min_length=10, max_length=10000, description="Description of the educational video to generate")
+    duration_limit: Optional[int] = Field(default=30, ge=5, le=1200, description="Maximum duration in seconds")
 
 class VideoResponse(BaseModel):
     video_id: str

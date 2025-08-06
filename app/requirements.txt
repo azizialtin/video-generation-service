@@ -7,3 +7,4 @@ python-multipart
 manim
 manim-voiceover[azure]
 google-genai
+azure-cognitiveservices-speech

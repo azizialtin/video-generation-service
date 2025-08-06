@@ -117,6 +117,8 @@ class VideoProcessor:
         # Set up environment
         env = os.environ.copy()
         env['PYTHONIOENCODING'] = 'utf-8'
+        env['AZURE_SUBSCRIPTION_KEY'] = settings.AZURE_SUBSCRIPTION_KEY
+        env['AZURE_SERVICE_REGION'] = settings.AZURE_SERVICE_REGION
         if platform.system() == "Windows":
             env['PYTHONPATH'] = os.pathsep.join([temp_dir] + env.get('PYTHONPATH', '').split(os.pathsep))
         else:
