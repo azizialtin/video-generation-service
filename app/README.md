@@ -1,10 +1,10 @@
-# Manim Video Generator API
+# Video Generator API
 
-A scalable FastAPI application that generates educational videos using Manim (Mathematical Animation Engine) and Anthropic's Claude AI.
+A FastAPI application that generates educational videos using Manim (Mathematical Animation Engine), Gemini AI, and Azure TTS.
 
 ## Features
 
-- **AI-Powered Script Generation**: Uses Claude AI to generate Manim scripts from text prompts
+- **AI-Powered Script Generation**: Uses Gemini to generate Manim scripts from text prompts
 - **Video Processing**: Renders educational videos using Manim
 - **RESTful API**: Clean REST endpoints for video management
 - **Background Processing**: Async video generation with progress tracking
@@ -46,7 +46,7 @@ manim_video_generator/
 
 ### Prerequisites
 
-- Python 3.11+
+- Python 3.10+
 - FFmpeg
 - LaTeX (for mathematical expressions)
 - Anthropic API key
